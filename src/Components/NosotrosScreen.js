@@ -1,15 +1,14 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Linking } from 'react-native';
 
-const DerechosScreen = () => {
+const NosotrosScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Derechos De Autor</Text>
+      <Text style={styles.title}>Nosotros </Text>
       <Text style={styles.description}>
-        Los derechos de autor están reservados por Lizeth Valeria Rivera Ruiz, Diana Lorena Yepes Córdoba, Brayan Esteban Cárdenas Morales y Fabian Esneider Díaz Gómez. Todo el contenido de este proyecto, desde su creación hasta la actualidad, ha sido desarrollado completamente por los mencionados anteriormente, quienes son aprendices del Sena del Centro de Electricidad, Electrónica y Telecomunicaciones, en el programa de Análisis y Desarrollo de Software (ADSO), Ficha 2558108 G2, año 2023.
-      </Text>
-      <Text style={styles.description}>
-        Derechos de autor reservados. Todo el contenido de este proyecto ha sido desarrollado completamente por nosotros.
+        SISI es una empresa creada en el año 2010, dirigida a la tecnología, otorgando a la sociedad los mejores productos tecnológicos de calidad y con un muy buen precio en el mercado. Actualmente nos encontramos ubicados en la localidad de Chapinero en la zona comercial de la ciudad y tenemos una distribución en toda la ciudad de Bogotá. 
+
+"Descubre el poder de la tecnología en nuestras manos" 
       </Text>
       <Text style={styles.contact}>Whatsapp: +57 310 1234567</Text>
       <Text style={styles.contact}>Teléfono: +57 310 1234567</Text>
@@ -33,11 +32,13 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#1A1A1A',
     marginBottom: 10,
+    textAlign: 'center',
   },
   description: {
     fontSize: 16,
     color: '#6C6C6C',
     marginBottom: 10,
+    textAlign: 'center',
   },
   contact: {
     fontSize: 16,
@@ -57,4 +58,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default AboutScreen;
+export default NosotrosScreen;
