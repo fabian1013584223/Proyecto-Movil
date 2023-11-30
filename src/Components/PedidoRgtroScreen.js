@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, Button, TextInput, TouchableOpacity, FlatList, Modal, Pressable } from 'react-native';
 
-const PedidoScreen = () => {
+const PedidoRgtroScreen = () => {
  const [pedidoVisible, setPedidoVisible] = useState(false);
  const [idPedido, setIdPedido] = useState('');
  const [idClienteProveedor, setIdClienteProveedor] = useState('');
@@ -11,12 +11,12 @@ const PedidoScreen = () => {
  const [valorTotal, setValorTotal] = useState('');
  const [estado, setEstado] = useState('Activo');
 
- const registrarPedido = () => {
+ const PedidoRgtroScreen = () => {
     // Registrar el pedido aquí
     setPedidoVisible(false);
  };
 
- const cancelarRegistrarPedido = () => {
+ const cancelarPedidoRgtroScreen = () => {
     setPedidoVisible(false);
  };
 
