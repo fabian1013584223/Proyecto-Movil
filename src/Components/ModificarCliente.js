@@ -10,7 +10,7 @@ import {
   ScrollView,
   StatusBar, // Agrega la importación de StatusBar
 } from 'react-native';
-import DropDownPicker from 'react-native-dropdown-picker';
+//import DropDownPicker from 'react-native-dropdown-picker';
 
 const ModificarCliente = () => {
   const [tipoDocumento, setTipoDocumento] = useState();
