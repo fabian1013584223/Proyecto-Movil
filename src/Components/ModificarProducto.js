@@ -2,7 +2,9 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
 import PickerSelect from 'react-native-picker-select';
 
-const ModificarPrecio = () => {
+
+
+const ModificarProducto = () => {
   const [categoria, setCategoria] = useState('');
   const [estado, setEstado] = useState('');
   const [nombreProducto, setNombreProducto] = useState('');
