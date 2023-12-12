@@ -6,6 +6,7 @@ import RegistrarPrecioScreen from './src/Components/RegistrarPrecioScreen';
 import RegistrarproducScreen from './src/Components/RegistrarproducScreen';
 import RgstroProveedorScreen from './src/Components/RgstroProveedorScreen';
 import ModificarCliente from './src/Components/ModificarCliente';
+import IndexAdministrador from './src/Components/IndexAdministrador'; 
 
 
 const App = () => {
@@ -18,7 +19,9 @@ const App = () => {
       <Text style={styles.title}>Registrar Proveedores</Text>
       <Text style={styles.title}>Modificar Cliente</Text> 
       <Text style={styles.title}>Modificar Precio</Text> 
+      <Text style={styles.title}>Administrador</Text>
       <FormularioLogin />
+      <IndexAdministrador/>
       <RegistrarStockScreen/>
       <RegistrarPrecioScreen/>
       <RegistrarproducScreen/>
